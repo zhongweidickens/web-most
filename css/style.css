@@ -1,0 +1,915 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #333;
+    font: 12px/1.5 "microsoft yahei";
+    background-color: #f3f3f3;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+.header {
+    width: 1200px;
+    height: 30px;
+    line-height: 30px;
+    text-align: right;
+    margin: 0 auto;
+}
+
+.header a {
+    color: #333;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.header a:last-child {
+    margin-right: 0;
+}
+
+.header a.teacher {
+    color: blue;
+}
+
+.header a.logout {
+    color: #f67914;
+    text-decoration: underline;
+}
+
+.banner {
+    width: 100%;
+    height: 87px;
+    background-color: #fff;
+}
+
+.banner-img {
+    width: 1200px;
+    height: 87px;
+    margin: 0 auto;
+}
+
+.banner-img img {
+    width: 1200px;
+    height: 87px;
+}
+
+.main {
+    width: 1200px;
+    margin: 20px auto 0;
+}
+
+.left {
+    float: left;
+    width: 210px;
+}
+
+.left .subject {
+    position: relative;
+    font-size: 16px;
+    color: #fff;
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 10px;
+    background-color: #36a9e0;
+}
+
+.left .subject-rightBtn {
+    position: absolute;
+    display: block;
+    top: 17px;
+    right: 10px;
+    width: 16px;
+    height: 16px;
+    background: url("../images/01.jpg") no-repeat;
+}
+
+.Course-selection {
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    width: 246px;
+    height: 235px;
+    color: #333;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    z-index: 1;
+}
+
+.Course-selection h3 {
+    font-weight: normal;
+    font-size: 16px;
+    margin: 0 15px;
+    border-bottom: 1px solid #EAEAEA;
+}
+
+.Course-selection .Lorem {
+    font-size: 14px;
+    line-height: 30px;
+    margin: 10px 15px 0;
+    color: #666;
+}
+
+.Lorem .School-section {
+    display: inline-block;
+    padding: 5px 10px;
+    height: 20px;
+    line-height: 20px;
+    background-color: #ddd;
+    margin-right: 10px;
+    width: 47px;
+    text-align: center;
+}
+.Lorem .School-section.on {
+    color: #fff;
+    background-color: #36a9e0;
+}
+
+.Lorem .Course-selection-txt {
+    position: relative;
+    display: inline-block;
+    width: 118px;
+    height: 30px;
+    padding: 0 10px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+}
+
+.Course-selection-list {
+    position: absolute;
+    z-index: 1;
+    top: 30px;
+    left: -1px;
+    width: 138px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+}
+
+.Course-selection-list li {
+    padding: 0 10px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+.Course-selection-list li:hover {
+    background-color: #eee;
+}
+.Course-selection-list li:last-child {
+    border-bottom: none;
+}
+
+.determine {
+    font-size: 14px;
+    color: #fff;
+    width: 82px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin: 15px auto 0;
+    background-color: #36a9e0;
+}
+.Lorem .arrow{
+    position: absolute;
+    top: 11px;
+    right: 8px;
+    display: block;
+    width: 12px;
+    height: 7px;
+    background: url("../images/ico-arrow.png") no-repeat;
+    background-position: 0 0;
+}
+
+.grade {
+    position: relative;
+    color: #f67914;
+    font-size: 16px;
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 10px;
+    background-color: #f6f0e7;
+}
+
+.grade .arrow {
+    width: 6px;
+    height: 12px;
+    display: block;
+    position: absolute;
+    top: 18px;
+    right: 10px;
+    background: url("../images/02.jpg") no-repeat;
+}
+
+.grade-course {
+}
+
+.section {
+}
+
+.chapter {
+    position: relative;
+    color: #647685;
+    font-size: 14px;
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 10px;
+    background-color: #e3eff5;
+    border-bottom: 1px solid #d1e0e8;
+    cursor: pointer;
+}
+
+.chapter .arrow {
+    width: 12px;
+    height: 6px;
+    display: block;
+    position: absolute;
+    top: 24px;
+    right: 10px;
+    background: url("../images/button.jpg") no-repeat;
+}
+
+.chapter.on {
+    color: #0f6ebf;
+}
+
+.chapter-sub {
+}
+
+.chapter-sub .item {
+    width: 173px;
+    height: 42px;
+    line-height: 42px;
+    padding-left: 35px;
+    border-left: 2px solid #fff;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.chapter-sub .item.on {
+    font-weight: bold;
+    border-left: 2px solid #f67914;
+    background-color: #f6f0e7;
+}
+
+.help-title {
+    color: #fff;
+    font-size: 16px;
+    width: 210px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    margin-top: 10px;
+    background-color: #36a9e0;
+}
+
+.tab-help {
+    height: 50px;
+}
+
+.tab-help .item {
+    float: left;
+    color: #647685;
+    font-size: 14px;
+    width: 105px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.tab-help .item.on {
+    color: #0f6ebf;
+    background-color: #fff;
+}
+
+.help-con {
+}
+
+.help-con .item {
+    padding: 10px;
+    overflow: hidden;
+    background-color: #fff;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+.help-con p {
+    color: #333;
+    font-size: 12px;
+}
+
+.help-con .p1 {
+    color: #666;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.help-con .p1 span {
+    color: #f67914;
+}
+
+.center {
+    float: left;
+    width: 564px;
+    margin-left: 32px;
+}
+
+.select-tab {
+}
+
+.select-tab .item {
+    float: left;
+    color: #333;
+    font-size: 14px;
+    width: 132px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    margin-right: 10px;
+    background-color: #fff;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #b0e0f8;
+}
+
+.select-tab .item:last-child {
+    margin-right: 0;
+    position: relative;
+    text-align: left;
+    padding-left: 20px;
+    width: 114px;
+}
+.Difficulty{
+    position: relative;
+    width: 114px;
+}
+.Difficulty_list{
+    position: absolute;
+        width: 132px;
+    top: 38px;
+    left: 0;
+    border: 1px solid #b0e0f8;
+    background-color: #fff;
+}
+.Difficulty_list li{
+    color: #333;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px;
+    border-bottom: 1px solid #b0e0f8;
+    background-color: #fff;
+}
+.Difficulty_list li:last-child{
+    border-bottom: 0;
+}
+
+.select-tab .item:last-child .arrow {
+    width: 16px;
+    height: 16px;
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: url("../images/03.jpg") no-repeat;
+}
+
+.select-tab .item.on,
+.select-tab2 .item.on {
+    color: #fff;
+    font-size: 14px;
+    background-color: #36a9e0;
+    border-top: 2px solid #36a9e0;
+    border-bottom: 2px solid #36a9e0;
+}
+
+.select-tab2 {
+    margin-top: 20px;
+}
+
+.select-tab2 .item {
+    float: left;
+    color: #333;
+    font-size: 14px;
+    width: 104px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    margin-right: 10px;
+    background-color: #fff;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #b0e0f8;
+}
+
+.select-tab2 .item:last-child {
+    margin-right: 0;
+}
+
+.course-tab {
+    margin-top: 20px;
+}
+
+.course-tab .item {
+    float: left;
+    color: #888;
+    font-size: 12px;
+    width: 102px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    margin-right: 10px;
+    background-color: #fff;
+    border-top: 2px solid #fff;
+    border-right: 1px solid #fff;
+    border-left: 1px solid #fff;
+}
+
+.course-tab .item:last-child {
+    margin-right: 0;
+}
+
+.course-tab .item.on {
+    color: #2d80c6;
+    border-top: 2px solid #99c8f2;
+    border-bottom: 2px solid #fff;
+    border-right: 1px solid #99c8f2;
+    border-left: 1px solid #99c8f2;
+}
+
+.course-con {
+    width: 556px;
+    margin-top: -2px;
+    border: 2px solid #99c8f2;
+    background-color: #fff;
+}
+
+.course-con-list {
+    padding: 20px;
+    background-color: #fff;
+}
+
+.course-con-list .img {
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+
+.course-con-list .con {
+    float: left;
+    margin-left: 20px;
+}
+
+.course-con-list .item {
+    padding: 20px;
+    background-color: #fff;
+}
+
+.course-con-list .item:nth-child(even) {
+    background-color: #f3f3f3;
+}
+
+.course-con-list .c-blue {
+    color: #2d80c4;
+}
+
+.course-con-list .p1 {
+    color: #999;
+    padding-top: 5px;
+}
+
+.course-con-list .c-orange {
+    color: #f77712;
+}
+
+.course-con-list .Detail {
+    color: #2d80c4;
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 20px;
+    margin-top: 28px;
+    border: 1px dashed #2d80c4;
+}
+
+.page {
+    height: 50px;
+    background-color: #f3f3f3;
+}
+
+.page-list {
+    float: right;
+    margin-top: 10px;
+}
+
+.page-list .item {
+    float: left;
+    color: #4e4e4e;
+    font-size: 12px;
+    display: block;
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    margin-right: 10px;
+    background-color: #f8f8f8;
+    border: 1px solid #c1c1c1;
+    cursor: pointer;
+}
+
+.page-list .pre {
+    background: url("../images/left_botton.png") no-repeat center;
+}
+
+.page-list .next {
+    background: url("../images/right_botton.png") no-repeat center;
+}
+
+.page-list .on {
+    color: #2d80c4;
+    background-color: #fff;
+}
+
+.teacher-tab {
+
+    /*background-color: #fff;*/
+}
+
+.teacher-tab .item {
+    float: left;
+    color: #333;
+    font-size: 14px;
+    width: 122px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #f3f3f3;
+    border-top: 3px solid #f3f3f3;
+}
+
+.teacher-tab .item.on {
+    color: #f67914;
+    border-top: 3px solid #f67914;
+    border-left: 1px solid #f67914;
+    border-right: 1px solid #f67914;
+    background-color: #fff;
+}
+
+.teacher-tab .item:first-child.on {
+    color: #f67914;
+    border-top: 3px solid #f67914;
+    border-right: 1px solid #f67914;
+    border-left: 0;
+    background-color: #fff;
+}
+
+.teacher-tab .item:last-child.on {
+    color: #f67914;
+    border-top: 3px solid #f67914;
+    border-left: 1px solid #f67914;
+    border-right: 0;
+    background-color: #fff;
+}
+
+.teacher-list {
+    background-color: #fff;
+}
+
+.teacher-list .item {
+    padding: 10px 0;
+    margin: 0 10px;
+    border-bottom: 1px solid #f3f3f3;
+    background-color: #fff;
+}
+
+.teacher-list .item:last-child {
+    border-bottom: 0;
+}
+
+.teacher-list .hd {
+    float: left;
+    width: 64px;
+    height: 64px;
+}
+
+.teacher-list .bd {
+    float: left;
+    margin-left: 10px;
+}
+
+.teacher-list .name {
+    font-size: 14px;
+    overflow: hidden;
+}
+
+.teacher-list .c-blue {
+    color: #2d80c4;
+}
+
+.teacher-list .c-orange {
+    color: #f77712;
+}
+
+.Examination-tab {
+    margin-top: 20px;
+}
+
+.Examination-tab .item {
+    float: left;
+    color: #333;
+    font-size: 14px;
+    width: 183px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #f3f3f3;
+    border-top: 3px solid #f3f3f3;
+}
+
+.Examination-tab .item.on {
+    color: #f67914;
+    border-top: 3px solid #f67914;
+    border-right: 1px solid #f67914;
+    background-color: #fff;
+}
+
+.Examination-tab .item:last-child.on {
+    ;
+    border-left: 1px solid #f67914;
+    border-right: 1px solid #fff;
+}
+
+.Examination-list {
+    background-color: #fff;
+}
+
+.Examination-list .item {
+    padding: 10px 0;
+    margin: 0 10px;
+    border-bottom: 1px solid #f3f3f3;
+    background-color: #fff;
+}
+
+.Examination-list img {
+    margin-right: 5px;
+    margin-top: -2px;
+    vertical-align: middle;
+}
+
+.Examination-list .item:last-child {
+    border-bottom: 0;
+}
+
+.Examination-list .p1 {
+    color: #999;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.Examination-list .more-ex {
+    color: #666;
+    font-size: 14px;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    background-color: #f3f3f3;
+}
+
+.announcement {
+    margin-top: 20px;
+}
+
+.announcement .hd {
+    position: relative;
+    color: #fff;
+    font-size: 18px;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 20px;
+    background-color: #36a9e0
+}
+
+.announcement .btn-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    width: 50px;
+    height: 50px;
+    background: url("../images/btn-close.png") no-repeat;
+}
+
+.announcement .bd {
+    padding: 0 20px 20px;
+    border: 1px solid #36a9e0;
+}
+
+.announcement .title {
+    font-size: 18px;
+    color: #478fcc;
+    text-align: center;
+    font-weight: normal;
+    height: 50px;
+    line-height: 50px;
+}
+
+.announcement p {
+    font-size: 14px;
+    color: #333;
+    line-height: 1.8;
+    text-indent: 2em;
+}
+
+.inputform {
+    float: left;
+    position: relative;
+    width: 186px;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 40px 0 10px;
+    margin-right: 20px;
+    background-color: #fff;
+}
+
+.inputform .txt {
+    font-size: 14px;
+}
+
+.form-line {
+    margin-top: 10px;
+}
+
+.inputform .select_botton {
+    position: absolute;
+    top: 12px;
+    right: 10px;
+    background: url("../images/select_botton.png") no-repeat;
+    display: block;
+    width: 10px;
+    height: 6px;
+}
+
+.inputform .select_list {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 234px;
+    border: 1px solid #efefef;
+    background-color: #fff;
+}
+
+.inputform .select_list li {
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px;
+    border-bottom: 1px solid #efefef;
+    background-color: #fff;
+}
+
+.inputform .select_list li:hover {
+    background-color: #b0e0f8;
+}
+
+.inputform .select_list li:last-child {
+    border-bottom: 0;
+}
+
+.form .inp {
+    font-size: 14px;
+    color: #666;
+    float: left;
+    width: 250px;
+    height: 24px;
+    padding: 10px;
+    border: 0;
+}
+
+.form .button {
+    font-size: 14px;
+    color: #fff;
+    float: left;
+    width: 100px;
+    height: 44px;
+    border: 0;
+    background-color: #36a9e0;
+}
+
+.seach-result {
+    margin-top: 10px;
+    padding: 20px;
+    width: 516px;
+    border: 2px solid #36a9e0;
+    background-color: #fff;
+}
+
+.seach-result .item {
+    font-size: 12px;
+    line-height: 26px;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.seach-result .item:nth-child(odd) {
+    background-color: #f3f3f3;
+}
+
+.seach-result .name {
+    width: 80px;
+    float: left;
+}
+
+.seach-result .school-name {
+    float: left;
+    width: 252px;
+}
+
+.seach-result .btn-contribution {
+    float: right;
+    color: #fff;
+    text-decoration: none;
+    height: 26px;
+    line-height: 26px;
+    padding: 0 20px;
+    display: block;
+    background-color: #36a9e0;
+}
+
+.seach-result .btn-view {
+    float: right;
+    color: #fff;
+    text-decoration: none;
+    height: 26px;
+    line-height: 26px;
+    padding: 0 20px;
+    margin-left: 10px;
+    display: block;
+    background-color: #b0e0f8;
+}
+
+.right {
+    float: right;
+    width: 368px;
+}
+
+.foot {
+    margin-top: 20px;
+    background-color: #36a9e0;
+}
+
+.foot-con {
+    width: 1200px;
+    color: #fff;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.foot-con a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.c {
+    zoom: 1;
+}
+
+.c:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.dis {
+    display: none;
+}
+
+.contentbox {
+  position: absolute;
+  left: 210px;
+  top: -1px;
+  z-index: 102;
+  width: 110px;
+  background-color: #fff;
+  overflow: hidden;
+  border: 1px solid #dbdbdb;
+}
+.contentbox .item {
+  margin-bottom: -1px;
+  border: 0 none;
+  border-bottom: 1px solid #eaeaea;
+  padding-left: 15px;
+}
+.contentbox .item .link {
+  display: block;
+  width: 100%;
+}
+.cp{
+    cursor: pointer
+} 
+a{color:#555;transition:background-color .3s ease}
+a span{transition:background-color .3s ease}

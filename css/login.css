@@ -1,0 +1,204 @@
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #0bb0f6;
+}
+
+html {
+    height: 100%;
+}
+.log {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+        margin: -100px 0 0 -212px;
+    width: 424px;
+    height: 280px;
+    background-color: #fff;
+    border-bottom: 5px solid rgba(0, 0, 0, 0.09);
+}
+.logo{
+    position: absolute;
+    top: -167px;
+    left: 75px;
+    width: 264px;
+    height: 88px;
+    background: url(../images/logo.png) no-repeat center;
+}
+.logonBG1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    background: url(../images/logonBG1.jpg) no-repeat center;
+}
+.logonBG2{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+.teacher,.scool{
+    margin-top: 26px;
+}
+.log .log-1 {
+height: 50px;
+line-height: 50px;
+width: 100%;
+background-color: #eaeced;
+}
+
+.log .log-1 .log-l {
+height: 50px;
+width: 50%;
+line-height: 50px;
+text-align: center;
+background-color: #ddd;
+}
+
+.log .log-1 .log-r {
+float: right;
+margin-top: -50px;
+height: 50px;
+line-height: 50px;
+width: 50%;
+text-align: center;
+background-color: #ddd;
+}
+
+.log .log-1 .box {
+color: #fff;
+background-color: #fd992f;
+}
+
+.log .log-2 {
+margin-top: 12px;
+}
+
+.log label {
+padding-left: 35px;
+    padding-right: 20px;
+    color: #747474;
+    font-size: 14px;
+    width: 50px;
+    display: inline-block;
+}
+
+.log input {
+height: 28px;
+    line-height: 28px;
+    width: 270px;
+    background-color: #d9e1e7;
+    border: 1px;
+}
+
+.log .log-2 .log-l {
+    height: 28px;
+    line-height: 28px;
+    width: 178px;
+    background-color: #d9e1e7;
+    border: 1px;
+    margin-right: 5px;
+}
+
+.log .log-2 img {
+height: 29px;
+vertical-align: middle;
+}
+
+.log .log-3 {
+margin-top: 12px;
+}
+
+.log .log-3 .log-l {
+    color: #747474;
+    width: 71px;
+    padding-left: 0px;
+    padding-right: 0;
+    margin-left: 35px;
+}
+
+.log .log-3 .log-it {
+}
+
+.log .log-3 .log-c {
+    height: 28px;
+    line-height: 28px;
+    width: 158px;
+    background-color: #d9e1e7;
+    border: 1px;
+}
+
+.log .log-3 .log-r {
+    width: 100px;
+    height: 29px;
+    line-height: 29px;
+    margin-right: 0%;
+    background-color: #8fc5db;
+    display: inline-block;
+    text-align: center;
+    color: #fff;
+    margin-left: 6px;
+    vertical-align: middle;
+}
+
+.log .log-4 {
+margin-top: 30px;
+    height: 50px;
+    width: 100%;
+    margin-left: 55px;
+
+}
+.scool .log-4 {
+margin-top: 30px;
+    height: 50px;
+    width: 100%;
+    margin-left: 98px;
+
+}
+
+.log .log-4 .it1 {
+    width: 118px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    color: #fff;
+    background-color: #f26b17;
+}
+
+.log .log-4 .it2 {
+    float: left;
+    width: 118px;
+    height: 34px;
+    line-height: 34px;
+    margin-top: -34px;
+    text-align: center;
+    color: #fff;
+    background-color: #94b2ca;
+    margin-left: 128px;
+}
+
+.log .log-4 .it3 {
+float: right;
+    font-size: 12px;
+    height: 34px;
+    width: 115px;
+    margin-top: -28px;
+    margin-right: 13%;
+    line-height: 1.3;
+}
+
+.log .log-4 .it3 a {
+color: #2d80c6;
+}
+
+.log .hid {
+display: none;
+}
+
+.log .show {
+display: block;
+}
